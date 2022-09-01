@@ -16,4 +16,5 @@ Losses
    losses/cross_entropy.rst
    losses/binary_cross_entropy.rst
    losses/sparse_cross_entropy.rst
+   losses/smooth_l1_loss.rst
 
