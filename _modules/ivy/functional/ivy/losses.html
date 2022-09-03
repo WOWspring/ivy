@@ -437,12 +437,7 @@
 <span class="sd">    &gt;&gt;&gt; a = ivy.array([0, 0, 1.5, 0])</span>
 <span class="sd">    &gt;&gt;&gt; b = ivy.array([0.25, 0.25, 0.25, 0.25])</span>
 <span class="sd">    &gt;&gt;&gt; print(ivy.smooth_l1_loss(a, b))</span>
-<span class="sd">    ivy.array([0.0312, 0.0312, 0.75  , 0.0312])</span>
-
-<span class="sd">    &gt;&gt;&gt; a = ivy.array([0, 0, 1.5, 0])</span>
-<span class="sd">    &gt;&gt;&gt; b = ivy.array([1.1, 0.1, 0.1, 1.1])</span>
-<span class="sd">    &gt;&gt;&gt; print(ivy.smooth_l1_loss(a, b))</span>
-<span class="sd">    ivy.array([0.6  , 0.005, 0.9  , 0.6  ])</span>
+<span class="sd">    ivy.array([0.0312, 0.0312, 0.75, 0.0312])</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">assert</span> <span class="n">beta</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;the parameter beta must be non-negative.&quot;</span>
